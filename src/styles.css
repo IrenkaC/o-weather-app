@@ -41,5 +41,7 @@ li:first-letter {
   text-transform: capitalize;
 }
 .units {
-  font-size: 10px;
+  font-size: 30px;
+  position: relative;
+  top: -34px;
 }

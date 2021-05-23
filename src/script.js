@@ -56,14 +56,3 @@ function showTemperature(response) {
   let h2 = document.querySelector("h2");
   h2.innerHTML = city;
 }
-
-function converttoFahrenheit(event) {
-  event.preventDefault();
-  let tempElement = document.querySelector("temp");
-  let temp = tempElement.innerHTML;
-  temp = Number(temp;
-  tempElement.innerHTML = Math.round((temp * 9) / 5 + 32);
-}
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", converttoFahrenheit);

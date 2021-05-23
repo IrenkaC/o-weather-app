@@ -59,10 +59,10 @@ function showTemperature(response) {
 
 function converttoFahrenheit(event) {
   event.preventDefault();
-  let temperatureElement = document.querySelector("temperature");
-  let temperature = temperatureElement.innerHTML;
-  temperature = Number(temperature);
-  temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
+  let tempElement = document.querySelector("temp");
+  let temp = tempElement.innerHTML;
+  temp = Number(temp;
+  tempElement.innerHTML = Math.round((temp * 9) / 5 + 32);
 }
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");

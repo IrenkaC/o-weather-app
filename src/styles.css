@@ -31,8 +31,8 @@ h5 {
 .row {
   font-size: 20px;
   font-weight: normal;
+}
 
-  li:first-letter {
-    text-transform: capitalize;
-  }
+li:first-letter {
+  text-transform: capitalize;
 }

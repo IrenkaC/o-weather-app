@@ -71,3 +71,12 @@ function showTemperature(response) {
   let h2 = document.querySelector("h2");
   h2.innerHTML = city;
 }
+
+function convertToFahrenheit(event) {
+  event.preventDefault();
+  let currentElement = document.querySelector("#current");
+  currentElement.innerHTML = (5 * 9) / 5 + 32;
+}
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", convertToFahrenheit);

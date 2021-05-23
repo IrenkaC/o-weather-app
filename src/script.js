@@ -52,6 +52,15 @@ function showTemperature(response) {
   let message = `${temperature}°C`;
   let h4 = document.querySelector("h4");
   h4.innerHTML = message;
+  let iconElement = document.querySelector("#icon");
+
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
+
+  getForecast(response.data.coord);
 
   let h2 = document.querySelector("h2");
   h2.innerHTML = city;

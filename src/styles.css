@@ -41,6 +41,6 @@ li:first-letter {
   text-transform: capitalize;
 }
 .units {
-  font-size: 30px;
-  top: -34px;
+  font-size: 20px;
+  top: -20px;
 }

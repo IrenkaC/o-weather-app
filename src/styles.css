@@ -35,6 +35,8 @@ h5 {
 
 li {
   list-style: none;
+  margin: auto;
+  display: block;
 }
 
 li:first-letter {

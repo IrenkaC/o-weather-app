@@ -42,6 +42,5 @@ li:first-letter {
 }
 .units {
   font-size: 15px;
-  position: relative;
   top: -10;
 }
